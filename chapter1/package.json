@@ -1,0 +1,19 @@
+{
+  "name": "chapter1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server public -c-1",
+    "build": "npx spago bundle-app -t public/index.js -y"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.15.13",
+    "purescript": "^0.15.6",
+    "purs-tidy": "^0.9.2",
+    "spago": "^0.20.9"
+  }
+}
