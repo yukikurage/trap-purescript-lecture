@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server public -c-1",
+    "serve": "http-server public -c-1 -p 8080",
     "build": "npx spago bundle-app -t public/index.js -y"
   },
   "keywords": [],

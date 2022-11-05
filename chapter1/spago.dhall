@@ -20,6 +20,8 @@ to generate this file without the comments in this block.
   , "prelude"
   , "simple-hooks"
   , "simple-signal"
+  , "tuples"
+  , "web-html"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]

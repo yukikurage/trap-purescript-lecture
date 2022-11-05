@@ -2,6 +2,7 @@ module Main where
 
 import Prelude
 
+import Counter (counter)
 import Data.Foldable (traverse_)
 import Effect (Effect)
 import Effect.Aff (launchAff_)
@@ -21,3 +22,4 @@ root :: forall m. Component m => m Unit
 root = do
   JE.div' do
     text "Hello World"
+  counter
