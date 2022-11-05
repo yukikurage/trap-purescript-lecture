@@ -15,6 +15,7 @@ to generate this file without the comments in this block.
   [ "aff"
   , "console"
   , "effect"
+  , "foldable-traversable"
   , "jelly"
   , "prelude"
   , "simple-hooks"
